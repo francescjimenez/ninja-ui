@@ -1,0 +1,47 @@
+import { Story, Meta, Props, Preview } from "@storybook/addon-docs/blocks";
+import Box from "../4_objects/box/box";
+import Text from "../3_elements/text/text";
+
+<Meta title="Base styles| Reference table" />
+
+
+## Props Reference Table
+
+This design system is using Styled System, and is organized into categories of style props.
+This is the list of most different props, the other props are written with camelCase, seample: font-family is fontFamily
+
+## Space
+| Function Name | Prop | Theme Field |
+| :-- | :-: | :-: |
+| m, margin |	margin | space |
+| mt, marginTop |	margin-top |space |
+| mr, marginRight |	margin-right |space |
+| mb, marginBottom |	margin-bottom |space |
+| ml, marginLeft |	margin-left |space |
+| mx	margin-left | and margin-right |space |
+| my |	margin-top and margin-bottom |space |
+| p, padding | padding |space |
+| pt, paddingTop |	padding-top |	space |
+| pr, paddingRight |	padding-right |space |
+| pb, paddingBottom |	padding-bottom |space |
+| pl, paddingLeft |	padding-left |space |
+| px | padding-left and padding-right |	space |
+| py | padding-top and padding-bottom |	space |
+
+## Border
+| Function Name | Prop | Theme Field |
+| :-- | :-: | :-: |
+| borderX	| border-left & border-right| borders |
+| borderY	| border-top & border-bottom| borders |
+
+## Variants
+| Function Name | Prop | Theme Field |
+| :-- | :-: | :-: |
+| textStyle |	textStyle |	textStyles |
+| colorStyle | colors |	colorStyles |
+| buttonStyle |	variant |	buttons |
+
+## Layout
+| Function Name | Prop | Theme Field |
+| :-- | :-: | :-: |
+| size| width height| sizes |

@@ -1,0 +1,33 @@
+Any design system needs a color pallette in order to make the whole UI more consistent and familiar. Having a concise color pallette helps designers and developers make decisions down the line and have confidence on it. having a good variety of colors does not mean we need to use it all, but give us the right range to select from.
+
+## Anatomy
+
+All colors have a base color and then a variation of its lightness that creates the other siblings. the shape of the color on our theme is this:
+
+```javascript
+
+
+import colors from './colors';
+
+
+const theme = {
+  //...
+  colors: {
+    red: [
+      "hsl(360, 60%, 99%)",
+      "hsl(8, 64%, 88%)",
+      "hsl(8, 72%, 62%)",
+      "hsl(8, 80%, 64%)",
+      "hsl(8, 88%, 56%)",
+      "hsl(8, 80%, 40%)",
+      "hsl(8, 72%, 32%)",
+      "hsl(8, 64%, 24%)",
+      "hsl(8, 56%, 16%)"
+    ]
+    // ... more colors
+  }
+  //...
+};
+```
+
+As you can see here, the name of the color is the actual name itself, and then all the lightness variations are included in a array

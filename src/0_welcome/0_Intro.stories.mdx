@@ -1,0 +1,73 @@
+<Meta title="Welcome | Introduction" />
+
+# Ninja UI Design System
+
+## Goals
+
+1. Promote consistency across the brand and applications, allowing us to create a unified experience across all touch points.
+2. Improve the efficiency of development by ensuring we’re speaking the same language. It allows our conversations to be shaped less around low-level design, and more around what really matters.
+
+## For developers
+
+### Implementation details
+
+- ITCSS: Organization / Architecture
+- BEM: css naming
+- React: Encapsulate reusable styles via components
+- Tooling: webpack, babel, scss
+
+### Customized “Inverted Triangle”
+
+- Settings - Variables (JS& CSS)
+- Generic - Resets, main css, mixins, css functions...
+- Elements - Bare elements (styled components)
+- Objects - Structure components: column, row, container...
+- Components - UI: react (JS & CSS) /Atom organization
+- Helpers - Utilities in JS
+
+## Usage
+#### Install library
+```bash
+npm install --save ninja-ui
+```
+
+#### Theme Provider
+Make sure to wrap your app in ThemeProvider to get the default theme:
+```javascript
+import { ThemeProvider, ThemeBase } from 'ninja-ui';
+
+const App = () => <ThemeProvider theme={ThemeBase}>Hey there👋</ThemeProvider>;
+```
+
+#### Importing components from Ninja UI
+All components can be imported directly:
+
+```javascript
+import { Button } from "ninja-ui";
+
+export default () => (
+  <div>
+    <Button variant="green" onClick={() => {}}>
+      Hello Button
+    </Button>
+  </div>
+);
+```
+
+## Resources
+
+### Accessibility
+
+- https://inclusive-components.design
+- https://a11yproject.com/
+- https://github.com/brunopulis/awesome-a11y
+- https://w3c.github.io/aria-practices/
+- https://www.w3.org/TR/wai-aria-1.2/
+- http://accessibility.voxmedia.com/#engineers
+
+## Others Design systems
+- https://adele.uxpin.com/
+
+### Storybook Notes
+- https://www.learnstorybook.com/design-systems-for-developers/
+- https://storybook.js.org/docs/formats/component-story-format/

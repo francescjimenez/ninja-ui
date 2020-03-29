@@ -1,0 +1,8 @@
+
+build/
+node_modules/
+server/
+package-lock.json
+yarn.lock
+package.json
+src/5_components/alarm/alarm.js
