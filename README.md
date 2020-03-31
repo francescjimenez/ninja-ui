@@ -1,4 +1,6 @@
-# Ninja UI Design System
+# Ninja UI Design System 
+[See the storybook](https://ninja-ui.now.sh/)
+
 ![Storybook](https://raw.githubusercontent.com/francescjimenez/ninja-ui/master/public/storybook.png)
 
 ## Development
