@@ -83,19 +83,20 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.8.3",
-    "@babel/plugin-transform-runtime": "7.8.3",
-    "@babel/preset-env": "7.8.3",
-    "@babel/preset-react": "7.8.3",
-    "@storybook/addon-a11y": "5.3.17",
-    "@storybook/addon-actions": "5.3.17",
-    "@storybook/addon-docs": "5.3.17",
-    "@storybook/addon-knobs": "5.3.17",
-    "@storybook/addon-links": "5.3.17",
-    "@storybook/addon-viewport": "5.3.17",
-    "@storybook/addons": "5.3.17",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.0",
+    "@babel/compat-data": "7.9.0",
+    "@storybook/addon-a11y": "5.3.18",
+    "@storybook/addon-actions": "5.3.18",
+    "@storybook/addon-docs": "5.3.18",
+    "@storybook/addon-knobs": "5.3.18",
+    "@storybook/addon-links": "5.3.18",
+    "@storybook/addon-viewport": "5.3.18",
+    "@storybook/addons": "5.3.18",
     "@storybook/preset-create-react-app": "2.1.1",
-    "@storybook/react": "5.3.17",
-    "@storybook/theming": "5.3.17",
+    "@storybook/react": "5.3.18",
+    "@storybook/theming": "5.3.18",
     "@svgr/rollup": "5.3.0",
     "@svgr/webpack": "5.3.0",
     "auto": "9.22.1",
@@ -127,5 +128,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.8.3"
   }
 }
